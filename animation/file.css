@@ -1,0 +1,31 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  text-align: center;
+
+  /* animation-name: positionAnimation; */
+  /* animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+  /* animation: positionAnimation 3s linear 0s infinite alternate; */
+}
+
+@keyframes positionAnimation {
+  0%{
+    /* translate: 100px; */
+    background-color: rgb(60, 60, 235);
+  }
+ 50% {
+    /* translate: 1100px; */
+    background-color: rgb(246, 15, 15);
+    border-radius: 50%;
+  }
+  100%{
+    background-color: yellow;
+  }
+}

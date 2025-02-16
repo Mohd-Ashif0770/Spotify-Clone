@@ -1,0 +1,42 @@
+/* !Practice questions */
+div {
+  margin: 10px;
+}
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: width 2s ease-in 0.5s;
+}
+#box1:hover {
+  width: 600px;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transform: skewX(20deg);
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  box-shadow: 2px 2px 5px green;
+}
+
+#box4 {
+  width: 200px;
+  height: 200px;
+  background-color: lightgreen;
+  background-image: url(man.png);
+  background-size: cover;
+  opacity: 50%;
+}
+#box5 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(221, 59, 223);
+  transform: translate(200px, 200px) rotate(90deg);
+}
